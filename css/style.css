@@ -1,0 +1,168 @@
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: #2e2f42;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #2e2f42;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Start Header */
+
+.header-logo {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.header-logo span {
+    color: #4D5AE5;
+}
+
+.header-menu-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.header-contact-link {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.header-menu-link:hover,
+.header-contact-link:hover {
+    color: #404BBF;
+}
+
+/* End Header */
+/* Start Banner */
+
+.banner {
+    background-color: #2E2F42;
+}
+
+.banner-title {
+    font-size: 56px;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+.banner-btn {
+    background-color: #4D5AE5;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+}
+
+.banner-btn:hover {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+/* End Banner */
+/* Start Description */
+
+.description-item-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.description-item-text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* End Description */
+/* Start Team */
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.team-box {
+    width: 264px;
+    background-color: #fff;
+    border-radius: 0px 0 4px 4px;
+}
+
+.team-box-img {}
+
+.team-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+.team-position {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+/* End Team */
+/* Start Portfolio */
+
+.portfolio-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+
+.portfolio-item-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.portfolio-item-text {
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* End Portfolio */
+/* Start Footer */
+
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+    line-height: 24px;
+}
+
+.footer-logo {
+    color: #F4F4FD;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.footer-logo span {
+    color: #4D5AE5;
+}
+
+/* End Footer */
