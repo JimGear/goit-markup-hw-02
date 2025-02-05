@@ -63,26 +63,33 @@ address {
 /* Start Banner */
 
 .banner {
-    background-color: #2E2F42;
+
+    background-color:#2e2f42;
 }
 
 .banner-title {
     font-size: 56px;
-    line-height: 60px;
-    color: #fff;
+    line-height: 1.07;   
+    color: #ffffff;
     text-align: center;
 }
 
 .banner-btn {
     background-color: #4D5AE5;
-
-
-    color: #fff;
-
-
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 }
 
 .banner-btn:hover {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+.banner-btn:focus {
     background-color: #404BBF;
     cursor: pointer;
 }
