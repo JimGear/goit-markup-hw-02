@@ -63,14 +63,15 @@ address {
 /* Start Banner */
 
 .banner {
-    background-color:#2e2f42;
+    background-color: #2e2f42;
 }
 
 .banner-title {
     font-size: 56px;
-    line-height: 1.07;   
+    line-height: 1.07;
     color: #ffffff;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .banner-btn {
@@ -96,6 +97,11 @@ address {
 /* End Banner */
 /* Start Description */
 
+.description-title {
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
 .description-item-title {
     font-size: 20px;
     font-weight: 500;
@@ -105,6 +111,7 @@ address {
 .description-item-text {
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
 }
 
 /* End Description */
@@ -115,11 +122,15 @@ address {
 }
 
 .team-title {
+    color: #2e2f42;
     font-size: 36px;
     font-weight: 500;
     line-height: 40px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .team-box {
@@ -130,37 +141,48 @@ address {
 .team-box-img {}
 
 .team-name {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     text-align: center;
+    letter-spacing: 0.02em;
+
 }
 
 .team-position {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 /* End Team */
 /* Start Portfolio */
 
 .portfolio-title {
+    color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .portfolio-item-title {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
+    letter-spacing: 0.02em;
+
 }
 
 .portfolio-item-text {
     font-weight: 400;
     line-height: 24px;
+    letter-spacing: 0.02em;
 }
 
 /* End Portfolio */
