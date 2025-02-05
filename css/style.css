@@ -25,8 +25,9 @@ li {
     text-transform: uppercase;
 }
 
-.header-logo span {
-    color: #4D5AE5;
+
+.logo-name{
+    color: #2e2f42;
 }
 
 .header-menu-link {
