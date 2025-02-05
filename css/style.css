@@ -16,9 +16,12 @@ li {
 /* Start Header */
 
 .header-logo {
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -27,6 +30,7 @@ li {
 }
 
 .header-menu-link {
+    letter-spacing: 0.02em;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -35,12 +39,24 @@ li {
 .header-contact-link {
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .header-menu-link:hover,
 .header-contact-link:hover {
     color: #404BBF;
 }
+
+.header-menu-link:focus,
+.header-contact-link:focus {
+    color: #404bbf;
+}
+
+address {
+    font-style: normal;
+}
+
 
 /* End Header */
 /* Start Banner */
@@ -58,12 +74,11 @@ li {
 
 .banner-btn {
     background-color: #4D5AE5;
-    display: flex;
-    align-items: center;
+
+
     color: #fff;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
+
+
 }
 
 .banner-btn:hover {
